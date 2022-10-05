@@ -1,49 +1,49 @@
 h1{
-    font-size: 22px; /*Textstorlek 22px*/ 
+    font-size: 22px;  
        
 }
 
 body{
-    background-color: rgb(253, 251, 251); /*Bakgrundsfärg vit*/ 
-    color: #333; /*Textfärg svart*/
-    font-family: Arial, Helvetica, sans-serif; /*Text-stil*/
-    margin: 0px 0px; /*avstånd uppe,nere,vänster och höger 0*/
-    padding: 0px 0px; /*avstånd uppe,nere,vänster och höger 0*/ 
+    background-color: rgb(253, 251, 251);  
+    color: #333; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0px 0px; 
+    padding: 0px 0px;  
    
 }
 
 #box{
-    left: 0%; /*boxens position längst åt vänster*/
-    border-radius: 8px; /*kanterna på boxen blir lite rundare*/
-    background: #fff; /*bakgrundsfärgen i boxen är vit*/
-    width: 300px; /*boxens bredd*/
-    margin: 0px 15px; /*boxens avstånd uppe,nere,vänster och höger*/
-    padding: 20px 40px; /*boxens storlek*/
-    box-shadow: 2px 2px 20px #ddd; /*skugga i boxen*/
+    left: 0%; 
+    border-radius: 8px; 
+    background: #fff; 
+    width: 300px; 
+    margin: 0px 15px; 
+    padding: 20px 40px; 
+    box-shadow: 2px 2px 20px #ddd; 
 }
 
 body input{
-    padding: 10px; /*textrutorna i boxen där vi fyller i namn och lösenord har en padding på 10px*/
-    border-radius: 5px; /*textrutornas kanter blir rundare*/
-    margin: 10px 0; /*avståndet uppe,nere,vänster och höger*/
-    width: 95%; /*textrutornas bredd */
+    padding: 10px; 
+    border-radius: 5px; 
+    margin: 10px 0; 
+    width: 95%; 
 }
 
 
 
 body button{
-    color: rgb(7, 0, 0); /*logga in knappens färg */
-    font-weight: bold; /*logga in knappens text "Logga in" ska vara lite mörkare*/
-    padding: 10px; /*Knappens storlek*/
-    border-radius: 5px; /*kanterna på logga in knappen blir rundare*/
-    border: none; /*Logga in knappen ska inte ha någon utfyllnad runt knappen. */
+    color: rgb(7, 0, 0); 
+    font-weight: bold; 
+    padding: 10px; 
+    border-radius: 5px; 
+    border: none; 
 
 }
 
 .container{
-    width: 100%; /*bakgrundsbildens bredd*/
-    height: 800px; /*bakgrundsbildens höjd*/
-    background-image: url("/vatten.jpg"); /*lagt till en bakgrundsbild som ja hämtat med url och bildens namn*/
+    width: 100%; 
+    height: 800px; 
+    background-image: url("/vatten.jpg"); 
 
     
 }
@@ -51,11 +51,11 @@ body button{
 
 
 .rules {
-    margin-left: 20px; /*rutan med simsällskapets regler och ipsum lorem text som ligger åt vänster på startsidan */
-    width: 50%; /*bredden på rutan*/
-    height: 30%; /*höjden på rutan*/
-    background-color: #fff; /*bakgrundsfärgen är vit i rutan*/
-    padding: 30px; /*texten i rutan hamnar lite mer i mitten*/
-    border-radius: 15px; /*rutans kanter är lite runda */
-    margin-top: 20px; /*rutans position där sällskapets regler finns med */
+    margin-left: 20px; 
+    width: 50%; 
+    height: 30%; 
+    background-color: #fff; 
+    padding: 30px; 
+    border-radius: 15px; 
+    margin-top: 20px; 
 }
