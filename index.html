@@ -1,39 +1,39 @@
-<!DOCTYPE html> <!--Dokumentet är en Html fil, webbsidor skrivs i allmänheten som html och överförs över internet med hhtp.-->
-<html lang="sv"> <!--Språket som används i detta html dokument är svenska.-->
-<head> <!-- Det man skriver i head sektionen är inte synligt på webbsidan. I head sektionen skriver man in länkar till stylesheet, meta data, dokumentets titel.-->
-    <meta charset="UTF-8"> <!--Teckenkodning som man använder för att presentera text kodad i Unicode. I detta fall är dokumentet i utf8 teckenkodning.-->
+<!DOCTYPE html> 
+<html lang="sv"> 
+<head> 
+    <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inloggningsida</title> <!--I den här spalten så namger du titeln på ditt dokument som också visas i fönstret på webbläsaren i fliken.-->
-    <script src="script.js"></script> <!--Lägger till ett javascript som jag senare kommer jobba med då jag fixar vissa funktioner i script.js -->
-    <link rel="stylesheet" href="style.css"> <!--Lägger till stylesheet och länkar till en separat style.css fil som jag kommer designa min sida i -->
-</head> <!--Head sektionen tar slut här-->
-<body> <!--Början av body sektionen där man finner allt som finns på webbsidan allt ifrån bilder, videos, tabeller mm. läggs till i denna sektion.-->
+    <title>Inloggningsida</title> 
+    <script src="script.js"></script> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
 
-<div class="container"> <!--Här lägger jag in en div class och namnger den container som som jag senare kommer jobba med i css.-->
-    <div id='box'> <!--Ett id tilldelas till box dvs min inloggningbox som jag senare stylar i css-->
-    <h1>Logga in</h1> <!--H1 står för header. När du skriver en text eller rubrik mellan <h1> sektionen så får du den största storleken på texten eller rubriken-->
-    <form action='#login'> <!--Egenskapen för action är den åtgärd som utförs när formuläret skickas.-->
-    <input id='namn' type='text' placeholder='Namn'/><br> <!--Ger typen input ett id som jag senare jobbar med i javascript, i placeholder rutan knappar in namnet -->
-    <input id='losenord' type='password' placeholder='Lösenord'/><br> <!--Ger typen input ett id som jag senare jobbar med i javascript, type=password gör så att lösenordet döljs och placeholder rutan där vi knappar in lösenordet -->
-    <button id="loggIn" action='submit' onclick='startlog()'>Logga in</button> <!--En knapp med id och en action att skicka samt att jag startar startlog funktionen när jag klickar.-->
-    <button id="loggUt" style="display:none" action='submit' onclick='startloggout()'>Logga ut</button> <!--En knapp med id och en action att skicka samt att jag startar startloggout funktionen när jag klickar och döljer loggaut knappen från start.-->
-    <p id='akses'></p> <!--ger akses ett id-->
-    </form> <!--Här tar formuläret slut-->
-  </div> <!--Avslutar diven-->
+<div class="container"> 
+    <div id='box'> 
+    <h1>Logga in</h1> 
+    <form action='#login'> 
+    <input id='namn' type='text' placeholder='Namn'/><br> 
+    <input id='losenord' type='password' placeholder='Lösenord'/><br> 
+    <button id="loggIn" action='submit' onclick='startlog()'>Logga in</button> 
+    <button id="loggUt" style="display:none" action='submit' onclick='startloggout()'>Logga ut</button> 
+    <p id='akses'></p> 
+    </form> 
+  </div> 
     
   
-<div class="rules"> <!--div class som jag sedan ändrar på i css.-->
-  <h1>Simsällskapets Regler</h1> <!--Rubrik som kommer finnas med på första sidan-->
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolores aspernatur accusantium nesciunt repellat, odit commodi vel expedita esse reprehenderit officia facilis suscipit aliquid perferendis voluptatum rerum, aliquam facere quidem eligendi amet quisquam eos? Debitis modi voluptates dolor voluptatum ad.</p> <!--En paragraf med lorem text som visas under min rubrik-->
-</div> <!--Här avslutas diven-->
+<div class="rules"> 
+  <h1>Simsällskapets Regler</h1> 
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolores aspernatur accusantium nesciunt repellat, odit commodi vel expedita esse reprehenderit officia facilis suscipit aliquid perferendis voluptatum rerum, aliquam facere quidem eligendi amet quisquam eos? Debitis modi voluptates dolor voluptatum ad.</p> 
+</div> 
   
   
  
-</div> <!--Avslutar diven-->
+</div> 
 
 
 
 
-</body> <!--Stänger bodyn-->
-</html> <!--HTML avlutas-->
+</body> 
+</html> 
